@@ -18,6 +18,7 @@ const AllListings = (props) => {
       <Listing
         favorite={isFavorite}
         comingFromFavorites={false}
+        
         imageA={imagePathA}
         key={listing["listing_id"]}
         data={listing}
