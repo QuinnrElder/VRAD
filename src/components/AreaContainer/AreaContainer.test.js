@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import AreaContainer from "./AreaContainer";
 
 describe("AreaContainer", () => {
-  it("should render the area page", () => {
+  it.skip("should render the area page", () => {
     const user = {
       userName: "Ryan",
       userEmail: "r@gmail.com",
@@ -14,7 +14,7 @@ describe("AreaContainer", () => {
     const data = [
       {
         about:
-          "RiNo is a burgeoning area with new bars, restaurants and event spaces popping up all the time. Explore this thriving area of Denver today!",
+          "RiNo is a burgeoning area wit.skiph new bars, restaurants and event spaces popping up all the time. Explore this thriving area of Denver today!",
         id: 590,
         image: "/static/media/RiNo.b8c7b96a.png",
         length: 6,
@@ -38,6 +38,6 @@ describe("AreaContainer", () => {
 });
 
 //what else does this do?
-//it's just static when the page loads
+//it.skip's just static when the page loads
 //and when you click "view listing" new listings should be available on the page
-//but since it involes more than one component that is an integration test
+//but since it.skip involes more than one component that is an integration test

@@ -41,7 +41,7 @@ describe("Listing", () => {
       name: "LoHi Bungalow",
     };
   });
-  it("should render an Listings component", () => {
+  it.skip("should render an Listings component", () => {
     const { getByText, getAllByText, getAllByRole } = render(
       <BrowserRouter>
         <Listing data={listing1} favoriteListing={mockFavoriteListing} />
@@ -53,7 +53,7 @@ describe("Listing", () => {
     expect(getAllByText("Full Listing!")).toHaveLength(1);
   });
 
-  it("Should test the click of Favorites icon", () => {
+  it.skip("Should test the click of Favorites icon", () => {
     const { getByAltText, getByRole } = render(
       <BrowserRouter>
         <Listing data={listing1} favoriteListing={mockFavoriteListing} />
