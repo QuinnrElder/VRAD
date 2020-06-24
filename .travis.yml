@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- node
+notifications:
+  email: false
+deploy:
+  api_key:
+    secure: k8ygbSVDsD53Edv//8DuZ5pJcWBhIkS6F4moe7dsZJhAVAjgPe4INH8eiinC/MKrQ8QHppjzl43w7aiWYeb4GdaaSMVbSgBbYplFXrUH5Sxv0kdoeFDxrDG8mSg61Knycs1LSJoLMDg1bJjDBbpLHAYRft9byMyI6K5+SCw9JKnS8LPm8uRs/iuFZ3AoKg0/s/E8sgzO/FtE/oXWp04JKT1A/iNEy1jTtEsEFcgutsilh07AuaBgrhRiyUz+Vn3VMXT04y4iZYf7wsicIjQ14xt9xJDNOa7RoXErrWfMLGlZVIKmm6dSVe8HUWrvnRzIv5jha5hfvrSuyLU4Y9FnfSkO6g5EDajXQITlfD4YUtHPgIM/FWLIxH+/ZwoNVS8TOC31R/H0Sj2Ljbq13j/SAiM1BdH4JRBTcs4VnMO77Of6vhzLr/1ZrtDyCiFO1vdqkImbORAzo2UEqHXnmCpXMdMEG7X7W1Mnpg59l9pC+ax8eYCdqGvAhPW0bQ4pjS5oiNx1EpTYe+sLNLkWgFCt1b4JuQuIRdDcERAGT4jmuIu8lZTBB9KyIWwoRqiaUVmyCj9Qo/jz2bNlO8J4w2wcG4urDK1A5v20MouREOwurx2otSjys8EYEFdXBv/WZG/fC38w0lSH6IySYrvz/0XyyJnq/BeB/IOTaiif5vqAvB8=
+    app: denverbnb
+    skip_cleanup: true
